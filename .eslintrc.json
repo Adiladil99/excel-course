@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },    
+    "extends": ["eslint:recommended", "google"],
+    "rules": {
+        "semi": "off",
+        "no-console": "off",
+        "indent": "off",
+        "arrow-parens": "off",
+        "comma-dangle": "off",
+        "eol-last": "off",
+        "require-jsdoc": "off"
+    }
+}
