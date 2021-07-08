@@ -13,6 +13,9 @@
         "arrow-parens": "off",
         "comma-dangle": "off",
         "eol-last": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "no-trailing-spaces": "off",
+        "operator-linebreak": "off",
+        "max-len": "off"
     }
 }
