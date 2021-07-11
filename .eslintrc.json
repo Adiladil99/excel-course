@@ -16,6 +16,7 @@
         "require-jsdoc": "off",
         "no-trailing-spaces": "off",
         "operator-linebreak": "off",
+        "linebreak-style": "off",
         "max-len": "off"
     }
 }
