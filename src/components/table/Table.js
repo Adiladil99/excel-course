@@ -6,8 +6,8 @@ import {$} from '@core/dom'
 import {TableSelection} from './TableSelection'
 import {matrix} from './table.functions'
 import * as actions from '@/redux/actions'
-import {defaultStyles} from '../../constants'
-import {parse} from '../../core/parse'
+import {defaultStyles} from '@/constants'
+import {parse} from '@core/parse'
 
 export class Table extends ExcelComponents {
     static className = 'excel__table'

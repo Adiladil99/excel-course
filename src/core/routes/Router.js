@@ -1,4 +1,4 @@
-import {$} from '@core/dom'
+import {$} from '../dom'
 import {ActiveRoute} from './ActiveRoute'
 
 export class Router {
@@ -9,7 +9,7 @@ export class Router {
 
         this.$placeholder = $(selector)
         this.routes = routes
-        this.page = null
+        this.page = null 
 
         this.changePageHandler = this.changePageHandler.bind(this)
 
